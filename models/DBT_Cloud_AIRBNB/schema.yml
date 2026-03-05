@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+    - name: bookings
+      description: "Model Bookings AIRBNB"
+      columns:
+          - name: booking_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
